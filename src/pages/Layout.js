@@ -11,16 +11,19 @@ const Layout = () => {
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link">Home</a>
+                    <Link class="nav-link" to="/home">Home</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="sept_12_22.html">9/12/2022</a>
+                    <Link class="nav-link" to="/sept_12_22">9/12/2022</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="jun_5_2022.html">6/5/2022</a>
+                    <Link class="nav-link" to="/jun_5_2022">6/5/2022</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="jan_16_2022.html">1/16/2022</a>
+                    <Link class="nav-link" to="/jan_16_2022">1/16/2022</Link>
+                </li>
+                <li class="nav-item">
+                    <Link class="nav-link" to="/contact">Contact Me</Link>
                 </li>
             </ul>
         </div>
