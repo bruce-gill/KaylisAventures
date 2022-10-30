@@ -1,8 +1,8 @@
 
 
 const Home = () => {
-    const firstPic = require('./4M9A1433.jpg');
-    const secondPic = require('./4M9A1413.jpg');
+    const firstPic = require('./HomePage/4M9A1433.jpg');
+    const secondPic = require('./HomePage/4M9A1413.jpg');
     return (
         <div class="row" style={{ margin: '15px' }}>
             <div class="col-md-7">
@@ -30,6 +30,9 @@ const Home = () => {
            <div class="col-md-5">
                <img src={secondPic} style={{width: '100%'}}></img>
            </div>
+           <div class="col-md-12">
+                <a href={"https://github.com/bruce-gill/KaylisAventures"} target={"_blank"} style={{align: "center"}}>Github Repo</a>
+            </div>
         </div>
     );
 };
